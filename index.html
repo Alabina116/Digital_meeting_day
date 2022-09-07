@@ -5,37 +5,83 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Digital Meeting day</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/styles.css">
    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
    <div class="wrapper">
-   <header>
-      <div class="header__menu"></div>
-      <h1 class="header_title">
-         Digital Meeting day
-      </h1>
-      <h3 class="header__subtitle">
-         Количество мест ограничено,успей купить билеты
-      </h3>
-      <a href="#" class="header__buy">
-         Купить
-      </a>
-   </header>
+      <header class="header">
+         <div class="container">
+            <nav class="header__menu">
+               <a href="#" class="menu__item">Связаться&nbsp;с&nbsp;нами</a>
+               <a href="#" class="menu__item">Местоположение</a>
+               <a href="#" class="menu__item">Забронировать</a>
+               <a href="#" class="menu__item">Узнать&nbsp;цены</a>
+            </nav>
+      </header>
+
+      <section class="tickets" style="background-image: url(images/ticket.jpg);">
+         <div class="container">
+            <div class="tickets__content">
+               <h1 class="tickets__title">Digital Meeting day</h1>
+               <p> Количество мест ограничено, успей купить билеты</p>
+               <a href="#" class="btn"> Купить</a>
+            </div>
+         </div>
+      </section>
 
 
-<section class="section__wrapper">
-      <h2 class="section__title"> Билеты на мероприятие Digital Meeting Day 
-         можно приобрести прямо сейчас
-      </h2>
-   <a href="#" class="section__buy">
-   Купить
-   </a>
-</section>
+      <section class="sale" style="background-color: #E3EAFE;">
+         <div class="container">
+            <div class="sale__block">
+               <h2 class="sale__subtitle"> Билеты на мероприятие Digital Meeting Day можно приобрести прямо сейчас</h2>
+               <h3 class="sale__subtitle-rub">7 000 рублей</h3>
+               <a href="#" class="btn">Купить</a>
+            </div>
+         </div>
+      </section>
+
+      <section class="info" style="background-image: url(images/info.jpg); background-color: #0E1E71;">
+         <div class="container">
+            <div class="info__content">
+               <h2 class="info__title">Для участников</h2>
+               <p> Чтобы стать участником конкурса, вам необходимо подать заявку до 1 октября</p>
+               <a href="#" class="btn"> Подать&nbsp;заявку</a>
+            </div>
+         </div>
+      </section>
+
+      <section class="speakers"style="background-color: #E3EAFE;">
+         <div class="container">
+            <div class="speakers__block">
+               <h2 class="speakers__subtitle"> Спикеры, которые подготовили для вас ценные лекции</h2>
+               <img src="" alt="">
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer"style="background-color:  #0E1E71;">
+         <div class="container">
+            <div class="footer__soc">
+              <a href="">Местоположение</a>
+              <a href="">тел</a>
+              <a href="">тел</a>
+              <a href="https://faq.whatsapp.com" target="_blank" class="footer__soc-link">
+               <img src="/images/wh.svg" alt="">
+            </a>
+            <a href="https://tlgrm.ru" target="_blank" class="footer__soc-link">
+               <img src="/images/tg.svg" alt="">
+            </a>
+            </div>
+         </div>
+      </footer>
 
 
-
-
-</div>
+   </div>
 </body>
+
 </html>
