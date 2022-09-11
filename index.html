@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,6 @@
 </head>
 <body>
 
-   <div class="wrapper">
       <header class="header">
          <div class="container">
             <nav class="header__menu">
@@ -22,6 +22,7 @@
                <a href="#" class="menu__item">Забронировать</a>
                <a href="#" class="menu__item">Узнать&nbsp;цены</a>
             </nav>
+         </div>
       </header>
 
       <section class="tickets" style="background-image: url(images/ticket.jpg);">
@@ -29,58 +30,73 @@
             <div class="tickets__content">
                <h1 class="tickets__title">Digital Meeting day</h1>
                <p> Количество мест ограничено, успей купить билеты</p>
-               <a href="#" class="btn"> Купить</a>
+               <button class="btn"> Купить</button>
             </div>
          </div>
       </section>
 
-
-      <section class="sale" style="background-color: #E3EAFE;">
+      <section class="sale">
          <div class="container">
             <div class="sale__block">
                <h2 class="sale__subtitle"> Билеты на мероприятие Digital Meeting Day можно приобрести прямо сейчас</h2>
                <h3 class="sale__subtitle-rub">7 000 рублей</h3>
-               <a href="#" class="btn">Купить</a>
+               <button class="btn">Купить</button>
+               <button class="sale__item">Забронировать</button>
             </div>
          </div>
       </section>
 
-      <section class="info" style="background-image: url(images/info.jpg); background-color: #0E1E71;">
+      <section class="info">
          <div class="container">
             <div class="info__content">
                <h2 class="info__title">Для участников</h2>
-               <p> Чтобы стать участником конкурса, вам необходимо подать заявку до 1 октября</p>
-               <a href="#" class="btn"> Подать&nbsp;заявку</a>
+               <p> Чтобы стать участником конкурса, вам&nbsp;необходимо подать заявку до 1 октября</p>
+               <div class="info__img">
+                  <img src="/images/info.jpg" alt="picture">
+               </div>
+               <button class="btn"> Подать&nbsp;заявку</button>
             </div>
          </div>
       </section>
 
-      <section class="speakers"style="background-color: #E3EAFE;">
+      <section class="speakers">
          <div class="container">
             <div class="speakers__block">
-               <h2 class="speakers__subtitle"> Спикеры, которые подготовили для вас ценные лекции</h2>
-               <img src="" alt="">
+               <h2 class="speakers__subtitle"> Спикеры,&nbsp;которые&nbsp;подготовили для вас ценные лекции</h2>
+               <div class="speakers__foto-one">
+                  <img src="/images/sp1.jpg" alt="foto" hspace="0 8">
+                  <img src="/images/sp2.jpg" alt="foto" hspace="8">
+                  <img src="/images/sp3.jpg" alt="foto" hspace="8">
+                  <img src="/images/sp4.jpg" alt="foto" hspace="8 0">
+               </div>
+               <div class="speakers__foto-second">
+                  <img src="/images/sp5.jpg" alt="foto" hspace="0 8">
+                  <img src="/images/sp6.jpg" alt="foto" hspace="8">
+                  <img src="/images/sp7.jpg" alt="foto" hspace="8">
+                  <img src="/images/sp8.jpg" alt="foto" hspace="8 0">
+               </div>
             </div>
          </div>
       </section>
 
-      <footer class="footer"style="background-color:  #0E1E71;">
-         <div class="container">
-            <div class="footer__soc">
-              <a href="">Местоположение</a>
-              <a href="">тел</a>
-              <a href="">тел</a>
-              <a href="https://faq.whatsapp.com" target="_blank" class="footer__soc-link">
-               <img src="/images/wh.svg" alt="">
-            </a>
-            <a href="https://tlgrm.ru" target="_blank" class="footer__soc-link">
-               <img src="/images/tg.svg" alt="">
-            </a>
+         <footer class="footer">
+            <div class="container">
+                  <div class="footer__loc">
+                     <a href="">Местоположение
+                        <img src="/images/Group.svg" alt=""></a>
+                  </div>
+                  <div class="footer__tel">
+                     <a href="">+7 (926) 000 00 00</a>
+                     <a href="">+7 (926) 000 00 00</a>
+                  </div>
+                     <div class="footer__soc"> 
+                     <a href="https://faq.whatsapp.com" target="_blank" class="footer__soc-link">
+                        <img src="/images/wh.svg" alt=""></a>
+                     <a href="https://tlgrm.ru" target="_blank" class="footer__soc-link">
+                        <img src="/images/tg.svg" alt=""></a>
+                     </div>
             </div>
-         </div>
-      </footer>
-
-
+         </footer>
    </div>
 </body>
 
