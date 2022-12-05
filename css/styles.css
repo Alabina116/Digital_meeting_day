@@ -31,7 +31,7 @@ p {
    font-weight: 900;
    font-size: 20px;
    color: #E1E6E9;
-   padding-bottom: 39px;
+   margin-bottom: 39px;
 }
 
 .header {
@@ -46,8 +46,7 @@ p {
 .header__menu {
    display:flex;
    justify-content:flex-end;
-   padding-top: 70px;
-   
+   margin-top: 70px;
 }
 .menu__item {
    margin-right: 60px;
@@ -77,15 +76,13 @@ p {
    display: flex;
    justify-content: right;
    flex-direction: column;
-   padding-top: 131px;
 }
 
 .tickets__title {
    font-weight: 900;
    font-size: 40px;
    color: #E1E6E9;
-   margin: 0;
-   padding-bottom: 11px;
+   margin: 131px 0 11px 0;
 }
 
 .tickets p {
@@ -122,15 +119,14 @@ p {
 
 .sale__subtitle-rub {
    margin: 0 auto;
-   padding-bottom: 33px;
+   margin-bottom: 33px;
    font: 900 30px/35px 'Roboto';
    color: #263B83;
-   width: 185px;
-
 }
+
 .sale__item {
    margin: 0 auto;
-   padding-top: 18px;
+   margin-top: 18px;
    display: block;
    font: 900 20px/23px 'Roboto';
    color: #585858;
@@ -185,7 +181,6 @@ color: #fff;
    background-color: #E3EAFE;
    width: 100%;
 }   
-
 .speakers__block {
    text-align: center;
 }
@@ -197,12 +192,23 @@ color: #fff;
    font: 500 30px/35px 'Roboto';
    color: #585858;
 }
-.speakers__foto-one {
-   padding-bottom: 65px;
+ul {
+   margin: 0 0 90px 0;
+   padding: 0;
+   flex-wrap: wrap;
+   display: flex;
+   align-items: stretch;
+   justify-content: center;
+   list-style-type: none;
 }
-.speakers__foto-second {
-   padding-bottom: 90px;
+li {
+      padding: 0 20px 65px 0;
 }
+.pic4 {
+   padding-right: 0;
+}
+
+
 /* speakers end */
 
 .footer {
