@@ -70,6 +70,7 @@ p {
    background-size: cover;
    padding-top: 92px;
    text-align: right;
+   margin-bottom: 55px;
 }
 
 .tickets__content {
@@ -108,7 +109,6 @@ p {
 .sale__block {
    margin: 0 auto;
    text-align: center;
-   padding-top: 55px;
 }
 
 .sale__subtitle {
@@ -153,18 +153,19 @@ color: rgb(173, 173, 176);
    align-items: center;
    }
 
-.info__title{
+.info__title {
 margin: 0;
 width: 228px;
 font-weight: 900;
 font-size: 30px;
 color: #fff;
 }
-.info p {
-
+.info__title p {
+margin-right: 43px;
 }
 .info__img {
    background: no-repeat;
+   margin-right: 43px;
 }
 
 .info .btn{
@@ -179,17 +180,17 @@ color: #fff;
 }   
 .speakers__block {
    text-align: center;
+   margin-bottom: 90px;
 }
 .speakers__subtitle {
-   margin: 0 auto;
-   text-align: center;
-   padding: 90px 0 70px 0;
+   margin: auto;
+   padding-bottom: 78px;
    width: 450px;
    font: 500 30px/35px 'Roboto';
    color: #585858;
 }
-ul {
-   margin: 0 0 90px 0;
+.ul {
+   margin: 0;
    padding: 0;
    flex-wrap: wrap;
    display: flex;
@@ -197,11 +198,11 @@ ul {
    justify-content: center;
    list-style-type: none;
 }
-li {
+.li {
    margin: 0 20px 65px 0;
 }
-.pic4 {
-   padding-right: 0;
+.li__f4:last-child {
+   margin-right: 0;
 }
 
 
