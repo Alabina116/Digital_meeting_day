@@ -9,17 +9,16 @@ body {
    max-width: 1180px;
    width: 100%;
    margin: 0 auto;
-   padding: 0;
 }
 .btn {
    padding: 16px 66px;
    font: 900 20px/23px 'Roboto';
-   align-self: flex-end;
    color: #000;
    border: none;
    background-color: #FFDA45;
    transition: background-color .2s ease;
    cursor: pointer;
+   margin-bottom: 18px;
 }
 .btn:hover {
    background-color:#f9df79;
@@ -31,7 +30,6 @@ p {
    font-weight: 900;
    font-size: 20px;
    color: #E1E6E9;
-   margin-bottom: 39px;
 }
 
 .header {
@@ -43,10 +41,13 @@ p {
    z-index: 3;
 }
 
+.header .container {
+   padding-top: 70px;
+}
+
 .header__menu {
    display:flex;
    justify-content:flex-end;
-   margin-top: 70px;
 }
 .menu__item {
    margin-right: 60px;
@@ -67,32 +68,33 @@ p {
 .tickets {
    background-repeat: no-repeat;
    background-size: cover;
-   position: relative;
    padding-top: 92px;
    text-align: right;
 }
 
 .tickets__content {
    display: flex;
-   justify-content: right;
    flex-direction: column;
+   align-items: flex-end;
+   padding-top: 201px;
+   height: 822px;
 }
 
 .tickets__title {
    font-weight: 900;
    font-size: 40px;
    color: #E1E6E9;
-   margin: 131px 0 11px 0;
+   margin: 0 0 11px 0;
 }
 
 .tickets p {
    width: 283px;
-   align-self: flex-end;
 }
+
 .tickets .btn{
-   margin-bottom: 420px;
    background-color: #E0036F;
    color:#fff;
+   max-width: max-content;
 }
 /* tickets end */
 
@@ -106,15 +108,16 @@ p {
 .sale__block {
    margin: 0 auto;
    text-align: center;
+   padding-top: 55px;
 }
 
 .sale__subtitle {
    margin: 0 auto;
-   padding: 55px 0 40px 0;
    align-self: center;
    width: 620px;
    font: 500 30px/35px 'Roboto';
    color: #585858;
+   margin-bottom: 40px;
 }
 
 .sale__subtitle-rub {
@@ -126,7 +129,6 @@ p {
 
 .sale__item {
    margin: 0 auto;
-   margin-top: 18px;
    display: block;
    font: 900 20px/23px 'Roboto';
    color: #585858;
@@ -147,32 +149,26 @@ color: rgb(173, 173, 176);
 }
 .info__content {
    margin: 0 auto;
-   position: relative;
+   display: flex;
+   align-items: center;
    }
 
 .info__title{
 margin: 0;
-padding: 118px 0 20px 0;
 width: 228px;
 font-weight: 900;
 font-size: 30px;
 color: #fff;
 }
 .info p {
-   padding-bottom: 105px;
+
 }
 .info__img {
-   position: absolute;
-   top: 0;
-   left: 473px;
    background: no-repeat;
 }
 
 .info .btn{
-   position: absolute;
    padding: 16px 30px;
-   top: 136px;
-   right: 0;
 }
 /* info end */
 
@@ -202,7 +198,7 @@ ul {
    list-style-type: none;
 }
 li {
-   padding: 0 20px 65px 0;
+   margin: 0 20px 65px 0;
 }
 .pic4 {
    padding-right: 0;
